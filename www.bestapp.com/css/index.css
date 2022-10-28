@@ -1,0 +1,444 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+*{  
+    
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*---responsive mpbile300---*/
+//@media only screen and (min-width:768px){
+
+.header{
+	height:40px;
+	width:100%;
+	background-color:rgb(134 130 130 / 0%);
+	position:fixed;
+	top:0px;
+	left:0px;
+	padding-top:1.5rem;
+	box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+		
+}
+.logo{
+	margin-left:70px;
+	font-size:23px;
+    color:purple;	
+}
+.logo span{
+	font-size:25px;
+	color:pink;
+}
+.navbar{
+	position:absolute;
+	top:0px;
+	height:40px;
+	width:70%;
+	margin-left:30%;
+	padding-left:70px;
+	padding-top:1.5rem;
+	word-spacing:5px;
+	font-size:20px;
+	
+	
+}
+.header .navbar a{
+	color:purple;
+}
+.navbar a:hover{
+	color:pink;
+}
+}
+/*---responsive mpbile end 300---*/
+/*responsive mobile 600---*/
+//@media only screen and (min-width:768px){
+
+.header{
+	height:40px;
+	width:100%;
+	background-color:rgb(134 130 130 / 0%);
+	position:fixed;
+	top:0px;
+	left:0px;
+	padding-top:1.5rem;
+	box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+		
+}
+.logo{
+	margin-left:70px;
+	font-size:23px;
+    color:purple;	
+}
+.logo span{
+	font-size:25px;
+	color:pink;
+}
+.navbar{
+	position:absolute;
+	top:0px;
+	height:40px;
+	width:70%;
+	margin-left:30%;
+	padding-left:70px;
+	padding-top:1.5rem;
+	word-spacing:5px;
+	font-size:20px;
+	
+	
+}
+.header .navbar a{
+	color:purple;
+}
+.navbar a:hover{
+	color:pink;
+}
+}
+/*------mobile 600 end----*/
+/*-----tablet 768----*/
+//@media only screen and (min-width:768px){
+
+.header{
+	height:40px;
+	width:100%;
+	background-color:rgb(134 130 130 / 0%);
+	position:fixed;
+	top:0px;
+	left:0px;
+	padding-top:1.5rem;
+	box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+		
+}
+.logo{
+	margin-left:70px;
+	font-size:23px;
+    color:purple;	
+}
+.logo span{
+	font-size:25px;
+	color:pink;
+}
+.navbar{
+	position:absolute;
+	top:0px;
+	height:40px;
+	width:70%;
+	margin-left:30%;
+	padding-left:70px;
+	padding-top:1.5rem;
+	word-spacing:5px;
+	font-size:20px;
+	
+	
+}
+.header .navbar a{
+	color:purple;
+}
+.navbar a:hover{
+	color:pink;
+}
+}
+/*----tablet768end---*/
+/*------------------------responsivefor 1024 tablet----*/
+//@media only screen and (min-width:1024px){
+
+.header{
+	height:50px;
+	width:100%;
+	background-color:rgb(134 130 130 / 0%);
+	position:fixed;
+	top:0px;
+	left:0px;
+	padding-top:1.5rem;
+	box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+		
+}
+.logo{
+	margin-left:120px;
+	font-size:23px;
+    color:purple;	
+}
+.logo span{
+	font-size:25px;
+	color:pink;
+}
+.navbar{
+	position:absolute;
+	top:0px;
+	height:50px;
+	width:50%;
+	margin-left:50%;
+	padding-left:10px;
+	padding-top:1.5rem;
+	word-spacing:10px;
+	font-size:25px;
+	
+}
+.header .navbar a{
+	color:purple;
+}
+.navbar a:hover{
+	color:pink;
+}
+}
+/*----------------respomsive for tablet1024 end---------------*/
+/*--------------RESPONSIVE FOR 1200 LAPTOP -----------------------*/
+//@media only screen and (min-width:1200px){
+
+.header{
+	height:50px;
+	width:100%;
+	background-color:rgb(134 130 130 / 0%);
+	position:fixed;
+	top:0px;
+	left:0px;
+	padding-top:1.5rem;
+	box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+		
+}
+.logo{
+	margin-left:120px;
+	font-size:23px;
+    color:purple;	
+}
+.logo span{
+	font-size:25px;
+	color:pink;
+}
+.navbar{
+	position:absolute;
+	top:0px;
+	height:50px;
+	width:50%;
+	margin-left:50%;
+	padding-left:80px;
+	padding-top:1.5rem;
+	word-spacing:10px;
+	font-size:25px;
+	
+}
+.header .navbar a{
+	color:purple;
+}
+.navbar a:hover{
+	color:pink;
+}
+}
+
+/*--------------RESPONSIVE FOR LAPTOP END-----------------------*/
+/*-------respomsive for laptop 1440-----*/
+/*-------------header section start------------*/
+.header{
+	height:50px;
+	width:100%;
+	background-color:white;
+	position:fixed;
+	top:0px;
+	left:0px;
+	padding-top:1.5rem;
+	box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+	z-index:1000px;	
+}
+.logo{
+	margin-left:120px;
+	font-size:23px;
+    color:#814096;	
+}
+.logo span{
+	font-size:25px;
+	color:#f83292;
+}
+.navbar{
+	position:absolute;
+	top:0px;
+	height:50px;
+	width:50%;
+	margin-left:50%;
+	padding-left:120px;
+	padding-top:1.5rem;
+	word-spacing:10px;
+	font-size:25px;
+	
+}
+.header .navbar a{
+	color:#814096;
+}
+.navbar a:hover{
+	color:#f83292;
+}
+.button{
+	border:1px solid black;
+	border-radius:30px;
+	font-size:20px;
+	color:white;
+	padding:10px;
+	margin:12px;
+	padding-left:35px;
+	padding-right:35px;
+	background-image:linear-gradient(90deg, #814096, #f83292);
+	cursor:pointer;	
+}
+.button:hover{
+	padding:13px;
+	margin:15px;
+	padding-left:35px;
+	padding-right:35px;
+}
+/*------------------header section ends----------------*/
+/*-------------home section start-----------*/
+.home{
+	height:100vh;
+	width:100%;
+	background-image:url(E:/MANSI/assignment/www.bestapp.com/gallery/home-bg-img.png);
+	margin-top:75px;
+	background-size:100%;
+	background-position:center;
+	display:grid;
+	grid-template-areas:"content image image image";
+	padding-top: 80px;
+    padding-bottom: 24px;
+}
+.content{
+	grid-area:content;
+	height:600px;
+	//width:600px;
+	margin-top:60px;
+	margin-left:120px;
+	
+}
+.content h3{
+	font-size:55px;
+	word-spacing:4px;
+	text-transform:uppercase;
+	margin-top:150px;
+}
+.content h3 span{
+	display:block;
+	color:#f83292;
+	padding-top:10px;
+}
+.content p{
+	font-size:20px;
+	color:#666;
+	padding:10px;
+	margin-bottom:30px;
+}
+.image{
+	grid-area:image;
+	height:600px;
+	margin-top:20px;
+	margin-right:150px;
+}
+.image img{
+	width:580px;
+}
+/*-------------------home section end------------*/
+/*--------------feature section start----------*/
+.features{
+	height:100vh;
+	width:100%;
+	background-color:#f9f9f9;
+	padding-top: 80px;
+    padding-bottom: 24px;
+}
+.features h1{
+	margin:40px;
+	font-size:35px;
+	text-align:center;
+	color:rgb(176 39 139 / 80%);
+}
+
+.boxcontainer{
+	width:100%;
+	height:400px;
+	background-color:#f9f9f9;
+	
+}
+.box{
+	width:25%;
+	height:100%;
+	margin-left:90px;
+	background-color:white;
+	border-radius:5px;
+	border:2px solid rgb(0 0 0 / 20%);
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+	float:left;
+
+}
+.features .boxcontainer .box img{
+  margin-left:80px;
+  padding:30px;
+}
+.features .boxcontainer .box h3{
+	margin-left:60px;
+	padding-left:15px;
+	font-size:20px;
+	font-weight:bold;
+}
+.features .boxcontainer .box p{
+	font-size:13px;
+	color:#666;
+	text-align:center;
+	//padding:5px;
+}
+.features .boxcontainer .box a{
+	margin-left:90px;
+	margin-top:0px;
+	
+}
+/*-------------feature section end---------*/
+/*-----------about section start------*/
+.about{
+	height:100vh;
+	width:100%;
+	background-image:url(E:/MANSI/assignment/www.bestapp.com/gallery/about-bg.png);
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	padding-top: 80px;
+    padding-bottom: 24px;
+	display:grid;
+	grid-template-areas:"h1 h1 h1 h1 "
+	"column content2 content2 content2";
+	
+}
+.about h1{
+	grid-area:h1;
+	margin:10px;
+	font-size:35px;
+	text-align:center;
+	color:rgb(176 39 139 / 80%);
+	
+}
+.column{
+	height:600px;
+	width:650px;
+	margin-left:140px;
+	grid-area:column;
+	
+}
+.content2{
+	height:400px;
+	width:650px;
+	grid-area:content2;
+	margin-top:100px;
+
+}
+.about .content2 h3{
+	font-size:30px;
+	color:#666;
+}
+.about .content2 p{
+	color:#666;
+    text-align:left; 
+	font-size:15px;
+	padding:15px;
+}
+
+
+
+

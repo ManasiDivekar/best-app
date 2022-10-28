@@ -1,0 +1,118 @@
+@media only screen and(min-width:600px){
+
+.header{
+	height:50px;
+	width:100%;
+	background-color:pink;
+	position:fixed;
+	display:grid;
+	grid-template-areas:"logo navbar navbar navbar";
+}
+ .logo{
+	height:50px;
+	grid-area:logo;
+	border: 2px solid black; 
+	text-align:center;
+}
+.mlogo{
+	
+   color:purple;
+   font-size:3px;
+   
+}
+.mlogo span{
+   color:pink;
+}
+.navbar{
+	height:50px;
+	grid-area:navbar;
+	border: 2px solid black; 
+}
+}
+
+@media only screen and(min-width:600px){
+.header{
+	height:50px;
+	width:100%;
+	background-color:pink;
+	position:fixed;
+	display:grid;
+	grid-template-areas:"logo navbar navbar navbar";
+}
+.logo{
+	height:50px;
+	grid-area:logo;
+	border: 2px solid black; 
+	text-align:center;
+	text-decoration:none;
+}
+
+.navbar{
+	height:50px;
+	grid-area:navbar;
+	border: 2px solid black; 
+}
+}
+
+@media only screen and (min-width:768px){
+.header{
+	height:70px;
+	width:100%;
+	background-color:pink;
+	position:fixed;
+	display:grid;
+	grid-template-areas:"logo navbar navbar navbar";
+}
+.logo{
+	height:70px;
+	grid-area:logo;
+	border: 2px solid black; 
+}
+.navbar{
+	height:70px;
+	grid-area:navbar;
+	border: 2px solid black; 
+}
+}
+
+@media only screen and (min-width:1024px){
+.header{
+	height:100px;
+	width:100%;
+	background-color:pink;
+	position:fixed;
+	display:grid;
+	grid-template-areas:"logo navbar navbar navbar";
+}
+.logo{
+	height:100px;
+	grid-area:logo;
+	border: 2px solid black; 
+}
+.navbar{
+	height:100px;
+	grid-area:navbar;
+	border: 2px solid black; 
+}
+}
+
+@media only screen and (min-width:1440px){
+.header{
+	height:120px;
+	width:100%;
+	background-color:pink;
+	position:fixed;
+	display:grid;
+	grid-template-areas:"logo navbar navbar navbar";
+}
+.logo{
+	height:120px;
+	grid-area:logo;
+	border: 2px solid black; 
+}
+.navbar{
+	height:120px;
+	grid-area:navbar;
+	border: 2px solid black; 
+}	
+}
